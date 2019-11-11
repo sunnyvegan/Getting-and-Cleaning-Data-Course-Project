@@ -1,12 +1,12 @@
 ## download compressed data
-url<-""
+url<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 if (!file.exists("project")){dir.create("project")}
 options(download.file.method = "libcurl",urlmethod = "libcurl")
 download.file(url,destfile="project/UCI_HAR_Dataset.zip")
 
 ## extract all files from the compressed data
 setwd("./project")
-unzip("UCI_HAR_Dataset.zip")https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+unzip("UCI_HAR_Dataset.zip")
 
 ## list all extracted files
 list.files(recursive = TRUE)
