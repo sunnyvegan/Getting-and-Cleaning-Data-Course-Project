@@ -4,7 +4,7 @@ if (!file.exists("project")){dir.create("project")}
 options(download.file.method = "libcurl",urlmethod = "libcurl")
 download.file(url,destfile="project/UCI_HAR_Dataset.zip")
 
-## extract all files from the compressed data
+## extract all files from the compressed data file
 setwd("./project")
 unzip("UCI_HAR_Dataset.zip")
 
