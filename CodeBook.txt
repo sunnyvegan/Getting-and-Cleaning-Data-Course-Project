@@ -1,0 +1,59 @@
+The dataset is the activity measurments of 30 people as recorded by a smartphone device. The subjects were randomly assigned to test or training groups.
+Tri-axial raw signals tAcc-XYZ (linear acceleration) and tGyro-XYZ (angular velocity)were measured by the smartphone accelerometer and gyroscope respectivly. The linear acceleration measurement was broken down into its body and gravity components. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+Total number of observations in the dataset: 10299
+Total number of variables: 563
+Total number of subjects: 30
+
+Activities recorded: 
+code	activity
+1	Walking
+2	Walking_upstairs
+3	Walking_Downstairs
+4	Sitting
+5	Standing
+6	Laying
+
+
+The following smart phone sensor signals in the X, Y and Z directions were recorded 
+
+tBodyAcc-XYZ:  		time body acceleration in X, Y or Z axis
+tGravityAcc-XYZ: 	time gravity accleration in X, Y or Z axis
+tBodyAccJerk-XYZ: 	time body acceleration jerk signal in X, Y or Z axis
+tBodyGyro-XYZ:		time body gyroscope signal in X, Y or Z axis
+tBodyGyroJerk-XYZ:	time body gyroscope jerk signal in X, Y or Z axis
+fBodyAcc-XYZ:		frequency body acceleration signal in X, Y or Z axis
+fBodyAccJerk-XYZ:	frequency body acceleration jerk signal in X, Y or Z axis
+fBodyGyro-XYZ:		frequency body gyroscope signal in X, Y or Z axis
+tBodyAccMag:		Magitude of time body acceleration signal in X, Y or Z axis with Euclidean norm
+tGravityAccMag:		Magitude of time gravity acceleration jerk signal in X, Y or Z axis with Euclidean norm
+tBodyAccJerkMag:	Magitude of time body acceleration jerk signal in X, Y or Z axis with Euclidean norm
+tBodyGyroMag:		Magitude of time body gyroscope signal in X, Y or Z axis with Euclidean norm
+tBodyGyroJerkMag:	Magitude of time body gyroscope jerk signal in X, Y or Z axis with Euclidean norm
+fBodyAccMag:		Magitude of frequecy body acceleration signal in X, Y or Z axis with Euclidean norm
+fBodyAccJerkMag:	Magitude of frequency body acceleration jerk signal in X, Y or Z axis with Euclidean norm
+fBodyGyroMag:		Magitude of frequency body gyroscope signal in X, Y or Z axis with Euclidean norm
+fBodyGyroJerkMag:	Magitude of frequency body gyroscope jerk signal in X, Y or Z axis with Euclidean norm
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+
+
